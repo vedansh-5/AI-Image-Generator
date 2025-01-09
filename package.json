@@ -2,7 +2,7 @@
   "name": "ai-image-generator",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://vedansh-5.github.io/AI-Image-Generator",
+  "homepage": "https://vedansh-5.github.io/AI-Image-Generator>",
   "dependencies": {
     "@craco/craco": "^7.1.0",
     "cra-template": "1.2.0",
