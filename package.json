@@ -3,8 +3,8 @@
   "version": "0.1.0",
   "private": true,
   "homepage": "https://vedansh-5.github.io/AI-Image-Generator",
-
   "dependencies": {
+    "@craco/craco": "^7.1.0",
     "cra-template": "1.2.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
@@ -12,13 +12,12 @@
     "web-vitals": "^4.2.4"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
+    "start": "craco start",
+    "build": "craco build",
+    "test": "craco test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
-
   },
   "eslintConfig": {
     "extends": [

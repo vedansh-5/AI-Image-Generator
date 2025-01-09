@@ -1,8 +1,8 @@
 import React, { useRef, useState } from "react";
 import './ImageGenerator.css'
-import default_image from '../Assets/default_image.svg'
+import default_image from '../Assets/default_image.svg';  // Default image to show when no image is generated
 
-const ImageGenerator = () => {
+const ImageGenerator = () => { 
     const [image_url, setImage_url] = useState("/"); // Default to the default image
     const [loading, setLoading] = useState(false);
     let inputRef = useRef(null);
